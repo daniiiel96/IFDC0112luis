@@ -31,23 +31,23 @@ El metadata del fichero es:
 ## ¿Cuántos registros hay en el fichero?
 
 ```bash
-wc -l Electric_Vehicle_Population_Data.csv
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
 
 ## ¿De cuántos estados hay vehículos registrados?
 
 ```bash
-cut -d';' -f4 Electrical_Vehicle_Population_Data.csv | sort -u | grep -v State | wc -l
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
 ## ¿En que posición se encuentra la columna con el año de fabricación?
 
 ```bash
-head -1 Electric_Vehicle_Population_Data.csv | sed -e 's/;/\n/g' | grep -n 'Model Year'
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
 ## ¿En que año se fabricó el vehículo matriculado en Texas (TX)?
 
 ```bash
-cut -d';' -f4,6 Electric_Vehicle_Population_Data.csv | grep 'TX'
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
 ## ¿Cuál es el modelo de vehículo matriculado en Californía (CA)?
 
@@ -88,6 +88,21 @@ Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
 
 ## Ordena de mayor a menor autonomía promedio a los fabricantes
+
+```bash
+Escribe la linea de comandos bash con la  que has obtenido la respuesta
+```
+
+Para comprobar tus comando, te comparto el resultado.
+
+![image](https://github.com/user-attachments/assets/ecddb6e9-461f-4d31-b0fb-b18658500009)
+
+
+
+## ¿Que porcentaje de valores unicos tiene una columna?
+
+
+## Cuantos valores distintos hay en cada Columna. Hay 17 Columnas.... lo hacs 17 veces?
 
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
